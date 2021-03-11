@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.snkr-release {
+    display: block;
+    border-bottom: 0;
+    height: auto;
+    max-width: 605px;
+    width: auto;
+}
+
+#snkrs .grid-produtos .produto, #snkrs .grid-produtos--3-col .produto, #snkrs .grid-produtos--6-col .produto {
+    float: none;
+    width: auto;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+#snkrs .grid-produtos .produto, #snkrs .grid-produtos--3-col .produto {
+    float: left;
+    width: 100%;
+    padding-right: .4%;
+    margin-bottom: 50px;
+}
+
+.grid-produtos.grid-produtos--2-col .produto, .grid-produtos.grid-produtos--3-col .produto, .grid-produtos.grid-produtos--4-col .produto, .grid-produtos.grid-produtos--6-col .produto {
+    padding-right: 0;
+    width: auto;
+}
+.grid-produtos.grid-produtos--2-col .produto, .grid-produtos.grid-produtos--3-col .produto, .grid-produtos.grid-produtos--4-col .produto, .grid-produtos.grid-produtos--6-col .produto {
+    padding-right: 1.5%;
+    width: 50%;
+}
+.grid-produtos .produto {
+    float: none;
+}
+.grid-produtos .produto {
+    float: left;
+}
+.produto {
+    display: block;
+    width: auto;
+    cursor: pointer;
+}
